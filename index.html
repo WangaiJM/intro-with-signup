@@ -29,14 +29,24 @@
         <button class="btn btn-secondary">
           Try it free 7 days <span> then $20/mo. thereafter</span>
         </button>
-        <form action="#!">
+        <form action="#!" class="form">
           <div class="form-control">
-            <input type="text" class="form-input" placeholder="Firstname" />
+            <input
+              type="text"
+              class="form-input"
+              name="firstname"
+              placeholder="Firstname"
+            />
             <img src="./images/icon-error.svg" alt="Error icon" />
             <small>First name cannot be empty</small>
           </div>
           <div class="form-control">
-            <input type="text" class="form-input" placeholder="Last Name " />
+            <input
+              type="text"
+              class="form-input"
+              name="lastname"
+              placeholder="Last Name "
+            />
             <img src="./images/icon-error.svg" alt="Error icon" />
             <small>Last name cannot be empty</small>
           </div>
@@ -45,12 +55,18 @@
               type="email"
               class="form-input"
               placeholder="Email Address"
+              name="email"
             />
             <img src="./images/icon-error.svg" alt="Error icon" />
             <small>Looks like this is not an email</small>
           </div>
           <div class="form-control">
-            <input type="password" class="form-input" placeholder="Password " />
+            <input
+              type="password"
+              class="form-input"
+              name="password"
+              placeholder="Password "
+            />
             <img src="./images/icon-error.svg" alt="Error icon" />
             <small>Password cannot be empty</small>
           </div>
@@ -68,5 +84,6 @@
         </form>
       </div>
     </main>
+    <script src="./js/script.js"></script>
   </body>
 </html>
